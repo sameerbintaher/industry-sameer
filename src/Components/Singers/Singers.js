@@ -30,7 +30,7 @@ const Singers = () => {
                         ></Singer>)
                     }
                 </div>
-                <div className="cart-container p-3">
+                <div className="cart-container bg-light p-1 border border-1 rounded-3 h-25">
                     <Cart cart={cart}></Cart>
                 </div>
             </div>

@@ -11,13 +11,13 @@
     },
     {
         "id": "002",
-        "name": "Neha Kakkar",
-        "famous_as": "Singer",
-        "birthdate:": "June 6, 1988",
-        "sun_sign": "Gemini",
-        "birthplace": "Rishikesh, Uttarakhand, India",
-        "salary": "1100",
-        "img": "https://www.thefamouspeople.com/profiles/thumbs/neha-kakkar-1.jpg"
+        "name": "Shraddha Kapoor",
+        "famous_as": "Actress",
+        "birthdate:": "August 14, 1983",
+        "sun_sign": "Pisces",
+        "birthplace": "Mumbai, Maharashtra, India",
+        "salary": "1700",
+        "img": "https://www.thefamouspeople.com/profiles/thumbs/shraddha-kapoor-15438-1.jpg"
     },
     {
         "id": "003",
@@ -91,12 +91,12 @@
     },
     {
         "id": "010",
-        "name": "Shraddha Kapoor",
-        "famous_as": "Actress",
-        "birthdate:": "August 14, 1983",
-        "sun_sign": "Pisces",
-        "birthplace": "Mumbai, Maharashtra, India",
-        "salary": "1700",
-        "img": "https://www.thefamouspeople.com/profiles/thumbs/shraddha-kapoor-15438-1.jpg"
+        "name": "Neha Kakkar",
+        "famous_as": "Singer",
+        "birthdate:": "June 6, 1988",
+        "sun_sign": "Gemini",
+        "birthplace": "Rishikesh, Uttarakhand, India",
+        "salary": "1100",
+        "img": "https://www.thefamouspeople.com/profiles/thumbs/neha-kakkar-1.jpg"
     }
 ]
