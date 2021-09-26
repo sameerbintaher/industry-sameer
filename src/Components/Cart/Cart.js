@@ -22,7 +22,7 @@ const Cart = (props) => {
             <h4>Total Value: ${total} </h4>
             <h4>Selected Person:</h4>
             {
-                cart.map(item => <div style={{ border: '1px solid black' }} className='d-flex justify-content-center align-items-center m-1 p-1'>
+                cart.map(item => <div style={{ border: '1px solid black' }} className='d-flex justify-content-center align-items-center m-1 p-1' key={item.id}>
 
                     <img style={{ width: "50px", height: "50px", marginRight: "5px" }} src={item.img} alt="" />
                     <h6>{item.name}</h6>
