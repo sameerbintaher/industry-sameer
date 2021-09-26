@@ -9,16 +9,18 @@ const Singer = (props) => {
 
     return (
         <div>
-            <div className="singer bg-light p-3">
+            <div className="singer bg-light shadow p-3">
                 <div>
                     <img src={img} alt="" />
                 </div>
                 <div>
                     <h4 className="singer-name">{name}</h4>
-                    <p>Famous As: {famous_as}</p>
-                    <p>Demand: ${salary}</p>
-                    <p>Sun Sign: {sun_sign}</p>
-                    <p>Born in: {birthplace}</p>
+                    <div className="text">
+                        <p>Famous As: {famous_as}</p>
+                        <p>Demand: <span className="text-primary">${salary}</span></p>
+                        <p>Sun Sign: {sun_sign}</p>
+                        <p>Born in: {birthplace}</p>
+                    </div>
 
                     <button disabled={isClicked} onClick={() => {
                         props.handleAddToCart(props.singer)

@@ -23,3 +23,7 @@ img{
     border-radius: 5px;
     cursor: pointer;
 }
+.text{
+    text-align: left;
+    font-weight: 700;
+}
