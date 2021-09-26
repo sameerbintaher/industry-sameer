@@ -25,7 +25,7 @@ const Singers = () => {
                 <div className="singer-container">
                     {
                         singers.map(singer => <Singer
-                            key={singers.id}
+                            key={singer.id}
                             singer={singer}
                             handleAddToCart={handleAddToCart}
                         ></Singer>)
