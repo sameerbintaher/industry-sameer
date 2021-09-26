@@ -19,11 +19,7 @@ const Cart = (props) => {
         <div>
             <h3>My WishList</h3>
             <h4>Total Wished: {totalWish} </h4>
-            <h4>Total Value: {total} </h4>
-            <h5>
-                Singer Added: <br />
-
-            </h5>
+            <h4>Total Value: ${total} </h4>
         </div>
     );
 };

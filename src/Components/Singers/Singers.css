@@ -9,3 +9,11 @@
 .cart-container{
     
 }
+@media only screen and (max-width: 600px){
+    .singers-container{
+        display: block;
+    }
+    .singer-container{
+        display: block;
+    }
+}
