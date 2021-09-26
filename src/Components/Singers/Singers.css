@@ -1,0 +1,8 @@
+.singers-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.singer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
