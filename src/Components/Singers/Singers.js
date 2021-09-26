@@ -18,6 +18,7 @@ const Singers = () => {
         setCart(newCart);
     }
 
+
     return (
         <div>
             <div className="singers-container p-4">
@@ -30,7 +31,7 @@ const Singers = () => {
                         ></Singer>)
                     }
                 </div>
-                <div className="cart-container bg-light p-1 border border-1 rounded-3 h-25">
+                <div className="cart-container bg-light p-1 border border-1 rounded-3 h-50">
                     <Cart cart={cart}></Cart>
                 </div>
             </div>
