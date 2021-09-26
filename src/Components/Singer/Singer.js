@@ -1,9 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import React from 'react';
+import React, { useState } from 'react';
 import './Singer.css'
 const Singer = (props) => {
+
     const { name, famous_as, sun_sign, birthplace, img, salary } = props.singer;
+    const [isClicked, setIsClicked] = useState(false);
+
     return (
         <div>
             <div className="singer bg-light p-3">
@@ -16,13 +19,19 @@ const Singer = (props) => {
                     <p>Demand: ${salary}</p>
                     <p>Sun Sign: {sun_sign}</p>
                     <p>Born in: {birthplace}</p>
-                    <button
-                        onClick={() => props.handleAddToCart(props.singer)}
+
+                    <button disabled={isClicked} onClick={() => {
+                        props.handleAddToCart(props.singer)
+                        setIsClicked(true)
+                    }}
                         className="btn-regular"
-                    ><FontAwesomeIcon icon={faCoffee} /> Add to wishlist</button>
+                    ><FontAwesomeIcon icon={faCoffee} /> Add to wishlist
+                    {isClicked ? "✓" : <i className="fas fa-user-plus"></i>}
+                    </button>
+
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
