@@ -4,7 +4,7 @@ This project was Completely made with React Js. I was excited while making this 
 
 In this project  you will get these things
 
-i. Here you will find relevant description of Indian Musician, Actor and Actress. 
+i. Here you will find relevant description of Indian Musician, Actor and Actress. <br> 
 ii. You will find their demand for working with your industry
 iii. You can make a wishlist by selecting artist for next dream show. 
 iv. You will get their most asking information from here. 
